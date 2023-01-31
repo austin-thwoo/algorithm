@@ -2,7 +2,7 @@ package programers;
 
 import java.util.Arrays;
 
-public class Jan26_2023 {
+public class Jan26_2023_1 {
 
     class Solution {
         public int solution(int[] sides) {
