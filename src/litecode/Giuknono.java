@@ -2,7 +2,7 @@ package litecode;
 
 import java.util.Stack;
 
-public class Solution {
+public class Giuknono {
 
     public boolean isValid(String s) {
 
