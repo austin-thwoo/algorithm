@@ -77,11 +77,9 @@ public class Giuknono {
                 System.out.println("1?");
                 countb++;
             }
-
         }
         if (counta - countb != 0) {
             return false;
-
         }
 
         return true;

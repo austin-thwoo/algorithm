@@ -1,17 +1,11 @@
-import programers.Jan26_2023;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Hashtable;
-import java.util.Stack;
-import java.util.stream.Collectors;
-
 public class Main {
     public static void main(String[] args) {
-        Practice practice = new Practice();
-        int[] price ={7,1,5,3,6,4};
-        int a =practice.maxProfit(price);
-        System.out.println(a);
+
+        String a = "아라리라라랑 #아라 리라#오라 리랑#오따다 리랑";
+        Trie practice = new Trie();
+//        Trie.Trie trie= new Trie.Trie();
+
+
 
 
 
