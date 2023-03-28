@@ -2,8 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         String a = "아라리라라랑 #아라 리라#오라 리랑#오따다 리랑";
-        Trie practice = new Trie();
-//        Trie.Trie trie= new Trie.Trie();
+        Solution solution = new Solution();
+        System.out.println(solution.frequencySort("tree"));
+
+
+
 
 
 
