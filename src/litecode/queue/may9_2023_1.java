@@ -1,7 +1,8 @@
-import java.util.*;
-import java.util.stream.Collectors;
+package litecode.queue;
 
-class Solution {
+import java.util.PriorityQueue;
+
+class may9_2023_1 {
 
     public int findKthLargest(int[] nums, int k) {
 

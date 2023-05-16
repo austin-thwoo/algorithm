@@ -3,7 +3,8 @@ public class Main {
 
         String a = "아라리라라랑 #아라 리라#오라 리랑#오따다 리랑";
         Solution solution = new Solution();
-        System.out.println(solution.frequencySort("tree"));
+        System.out.println(solution.findKthLargest(new int[]{3,2,3,1,2,4,5,5,6},4));
+//        System.out.println(solution.kthSmallest(new int[][] {{1,5,9}, {10,11,13}, {12,13,15}},8));
 
 
 

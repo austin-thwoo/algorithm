@@ -16,8 +16,10 @@ public class mar28_2023_1 {
             }
         }
         StringBuilder stringBuilder = new StringBuilder();
+
 //        for (Map.Entry<Character, Integer> entry : hashMap.entrySet()) {
 //            stringBuilder.append(String.valueOf(entry.getKey()).repeat(hashMap.get(entry.getKey())));
+
 //        }
 //        return String.valueOf(stringBuilder);
         thwoo.entrySet().stream()
