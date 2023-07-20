@@ -1,26 +1,16 @@
-import java.util.*;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
-import java.util.stream.Stream;
-
 class Solution {
-    public int minMoves2(int[] nums) {
-        Arrays.sort(nums);
-        int a = nums[nums.length / 2];
-        int b = 0;
-        for (int num : nums) {
-            b += Math.abs(num - a);
-        }
-        return b;
+    public String removeStars(String s) {
 
+        char[] chars = s.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        for (Character c : chars) {
+            if (sb == null) {
+                return null;
+            }
+            if (c.equals('*')) {
+                sb.deleteCharAt(sb.length() - 1);
+            } else sb.append(c);
+        }
+        return sb.toString();
     }
 }
-
-
-
-
-
-
-
